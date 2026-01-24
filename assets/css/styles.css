@@ -52,11 +52,7 @@ img{max-width:100%;height:auto;}
   background-position:center;
   position:relative;
 }
-.hero::before{
-  content:"";
-  position:absolute;inset:0;
-  background: linear-gradient(90deg, rgba(2,10,24,.88) 0%, rgba(2,10,24,.55) 45%, rgba(2,10,24,.25) 100%);
-}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg, rgba(6,26,58,.85) 0%, rgba(6,26,58,.55) 45%, rgba(6,26,58,.25) 100%);}
 .hero-inner{
   position:relative;
   padding:22px;
@@ -265,3 +261,5 @@ ul{margin:12px 0 0 18px;}
 .card h3{margin:10px 0 0;}
 
 /* v25 */
+
+/* v26 */
